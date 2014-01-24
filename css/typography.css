@@ -151,6 +151,41 @@ ins{
 	border-bottom: 0.2em solid #F40BB3;
 }
 
+del{
+	color:#F30596;
+}
+
+s {
+	text-weight:bold;
+	color:#F40BB3;
+}
+
+i{
+	text-decoration:underline;
+}
+
+abbr{
+	text-weight: bold;
+	text-decoration:underline;
+	background-color:#F97694;
+}
+dfn{
+	font-weight:600;
+	color:#F97694;
+}
+
+em{
+	font-weight:200;
+}
+q{
+	font-weight:700;
+	color:#F74870;
+}
+
+b{
+	color: #F74870;
+}
+
 sub{
 	font-weight: bold;
 	color:#F40BB3;
