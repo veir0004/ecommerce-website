@@ -182,9 +182,14 @@ q{
 	color:#F74870;
 }
 
-b{
-	color: #F74870;
+ul{
+  list-style-type:square;
 }
+
+ol{
+	list-style-type:lower-roman;
+}
+	
 
 sub{
 	font-weight: bold;
