@@ -8,7 +8,7 @@
 
 .product {
 	border-radius: 5px;
-	background-border-color:#F97694;
+	background-border-color:#000;
 	border-style:solid;
 	border-width:1px;
 	border-color:#F74870;
@@ -16,7 +16,7 @@
 }
 
 select {
-  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' style='fill:white' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
   background-color:#b4b4b4;
   background-repeat:no-repeat;
   background-position: right 10px top 15px;
@@ -28,8 +28,8 @@ select {
   font-family:'Roboto', sans-serif;;
   text-align: left;
   color:#fff;
-  border-radius:0px;
-  -webkit-border-radius:0;
+  border-radius:5px;
+  -webkit-border-radius:2px;
   -webkit-appearance: none;
   -moz-appearance: none;
   border:0;
@@ -42,7 +42,7 @@ select {
 }
 
 #dropblock {
-  background-color:#F30596;
+  background-color:#000;
 }
 
 select:focus, select:active {
