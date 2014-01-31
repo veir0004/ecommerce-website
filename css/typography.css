@@ -130,8 +130,8 @@ a:link{
 }
 
 a:visited {
-  color: #BBB4B6;
-  border-bottom-color: #FF917E;
+  color: #9C9392;
+  border-bottom-color: #FFB37C;
 }
 
 a:hover,
@@ -142,7 +142,7 @@ a:active {
 }
 
 blockquote {
-	color:#F97694;
+	color:#FF6473;
 }
 
 strong {
@@ -213,7 +213,7 @@ sup{
 }
 
 .hours-table thead{
-	background-color: #F97694;
+	background-color: #FF6473;
 	color: #fff;
 }
 
