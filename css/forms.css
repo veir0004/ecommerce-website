@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------
+1.0 - BASE SITE STYLES
+--------------------------------------------------------------*/
+*,*:after,*:before {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+
+body {
+  color: #fff;
+  font-family: font-family: 'Roboto', sans-serif;
+}
+a,a:visited {
+  color:#fff
+}
+
+/*--------------------------------------------------------------
+2.0 - SEARCH FORM
+--------------------------------------------------------------*/
+.searchform {
+  background:#fff;
+  background: #fff;
+  border: 1px solid #000;
+	left: 50%;
+  padding: 2px 5px;
+  position: absolute;
+	margin: -22px 0 0 -170px;
+	top: 50%;
+  width:339px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px
+}
+
+.searchform input, .searchform button {
+	float: left
+}
+.searchform input {
+	background: #fff;
+	border: none;
+	font-family: font-family: 'Roboto', sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 216px;
+	box-shadow:0 0 4px #000;
+	-moz-box-shadow:0 0 4px #000;
+	-webkit-box-shadow: 0 0 4px #000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px
+}
+.searchform input:focus {
+		outline: none;
+		box-shadow:0 0 4px #0d76be inset;
+		-moz-box-shadow:0 0 4px #0d76be inset;
+		-webkit-box-shadow:0 0 4px #0d76be inset;
+	}
+.searchform input::-webkit-input-placeholder {
+  	font-style: italic;
+  	line-height: 10px
+	}
+
+.searchform input:-moz-placeholder {
+	  font-style: italic;
+  	line-height: 10px
+	}
+
+.searchform button {
+	background: #FF6473;
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font-family: font-family: 'Roboto', sans-serif;
+	padding: 10px;
+	width:106px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+.searchform button:hover {
+	background: #FF917E;
+ 	text-decoration: none;
+	}
