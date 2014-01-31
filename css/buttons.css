@@ -6,7 +6,7 @@
 .btn:visited {
 	display: inline-block;
 	padding: 0.75em 5em;
-	background-color: #F97694;
+	background-color: #FF6473;
 	border-radius: 1px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 	border: 0;
@@ -16,10 +16,10 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited {
-	background-color: #F30596;
+	background-color: #9C9392;
 }
 
 .btn:hover {
-  background: #FA94AB;
+  background: #FF917E;
   text-decoration: none;
 }
