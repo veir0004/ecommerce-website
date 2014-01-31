@@ -2,11 +2,13 @@
   Colour Palette
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
-  pink FF857E
+  pink FF6473  light FF857E
   grey 9C9392
   blue 4BBFBF
   beige FFB37C
+  *highlight colour FF917E;
  */
+ 
 html {
   font:  normal 100%/1.5 'Roboto', sans-serif;
 }
@@ -123,7 +125,7 @@ a,
 a:link{
   color: #000;
   text-decoration:none;
-  border-bottom: 0.1em solid #FF514F;
+  border-bottom: 0.1em solid #9C9392;
   transition: all 250 linear;
 }
 
