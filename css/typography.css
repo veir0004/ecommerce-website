@@ -4,7 +4,7 @@
   - Dark red: #600 - rgb(100, 0, 0)
  */
 html {
-  font:  normal 100%/1.5 'Ubuntu', sans-serif;
+  font:  normal 100%/1.5 'Roboto', sans-serif;
 }
 
 
@@ -98,7 +98,7 @@ small, .milli {
 }
 
 h1, h2, h3, h4, h5, h6, .brand {
-  font-family: font-family: 'Ubuntu', sans-serif;
+  font-family: font-family: 'Roboto', sans-serif;
   color: #FA8DA5;
 }
 
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, .brand {
 }
 
 .brand-family {
-  font-family: font-family: 'Ubuntu', sans-serif;
+  font-family: font-family: 'Roboto', sans-serif;
 }
 
 ::selection {
@@ -200,6 +200,7 @@ sup{
 	font-weight: bold;
 	color:#F40BB3;
 }
+
 .hours-list li{
 	margin: 1em 0;
 	line-height: 1.3;

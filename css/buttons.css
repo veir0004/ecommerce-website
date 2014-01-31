@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75em 5em;
+	background-color: #F97694;
+	border-radius: 1px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+	border: 0;
+	color: #fff;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: #F30596;
+}
+
+.btn:hover {
+  background: #FA94AB;
+  text-decoration: none;
+}
