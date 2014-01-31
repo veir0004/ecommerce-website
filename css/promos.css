@@ -1,3 +1,47 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  padding: 50px; 
+ }
+
+.display-block { display: block; 
+}
+
+.grid_3 {
+  width: 420px;
+  float: left;
+  margin-right: 30px; 
+}
+  
+.bucket {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  }
+
+.bucket-title {
+  margin-bottom: 5px; 
+  }
+
+.bucket-img {
+	padding: 25px;
+}
+
+.bucket-base {
+  padding: 25px;  
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  }
+
+.bucket-base-1 {
+ /* keep height separate for using taller buckets on other pages */
+  height: 450px; 
+  } 
