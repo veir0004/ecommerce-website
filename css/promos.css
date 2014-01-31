@@ -49,7 +49,7 @@ html {
   
   /* large???????>>>>>>>>>>>>>>>>>>>>>>>>>>??????????????????>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
   .billboard {
-	border: 3px solid #9C9392;
+	border-bottom: 5px solid #000;
 	height: 25rem;
 	position: absolute;
 	margin-top: 4.5rem;
