@@ -13,11 +13,12 @@ html {
 }
 
 .grid_3 {
-  width: 420px;
+  width: 400px;
   float: left;
   margin-right: 30px; 
 }
-  
+ 
+ 
 .bucket {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -30,7 +31,7 @@ html {
   }
 
 .bucket-img {
-	padding: 25px;
+	padding: 15px;
 }
 
 .bucket-base {
@@ -43,5 +44,29 @@ html {
 
 .bucket-base-1 {
  /* keep height separate for using taller buckets on other pages */
-  height: 450px; 
+  height: 400px; 
   } 
+  
+  /* large???????>>>>>>>>>>>>>>>>>>>>>>>>>>??????????????????>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  .billboard {
+	border: 3px solid #9C9392;
+	height: 25rem;
+	position: absolute;
+	margin-top: 4.5rem;
+}
+
+.media {
+	overflow:hidden;
+}
+
+.media-img {
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 20px;
+}
+
+.media-body {
+	overflow: hidden;
+	padding: 20px;
+}
+
