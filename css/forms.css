@@ -21,6 +21,7 @@ body {
   color: #fff;
   font-family: font-family: 'Roboto', sans-serif;
 }
+
 a,a:visited {
   color:#fff
 }
@@ -85,3 +86,95 @@ a,a:visited {
 	background: #FF917E;
  	text-decoration: none;
 	}
+	
+	@media screen and (max-width: 768px) {
+		
+*,*:after,*:before {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+
+body {
+  color: #fff;
+  font-family: font-family: 'Roboto', sans-serif;
+}
+a,a:visited {
+  color:#fff
+}
+		
+.searchform {
+	left: 1%;
+  padding: 1px 1px;
+  position:relative;
+  width:339px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px
+}
+
+.searchform input, .searchform button {
+	float: left
+}
+.searchform input {
+	background: #fff;
+	border: none;
+	font-family: font-family: 'Roboto', sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 216px;
+	box-shadow:0 0 4px #000;
+	-moz-box-shadow:0 0 4px #000;
+	-webkit-box-shadow: 0 0 4px #000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px
+}
+.searchform input:focus {
+		outline: none;
+		box-shadow:0 0 4px #0d76be inset;
+		-moz-box-shadow:0 0 4px #0d76be inset;
+		-webkit-box-shadow:0 0 4px #0d76be inset;
+	}
+.searchform input::-webkit-input-placeholder {
+  	font-style: italic;
+  	line-height: 10px
+	}
+
+.searchform input:-moz-placeholder {
+	  font-style: italic;
+  	line-height: 10px
+	}
+
+.searchform button {
+	background: #FF6473;
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font-family: font-family: 'Roboto', sans-serif;
+	padding: 10px;
+	width:70px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+.searchform button:hover {
+	background: #FF917E;
+ 	text-decoration: none;
+	}
+		
+		
+		
+		
+		
+		
+		}
