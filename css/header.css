@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.logo {
+	width: 300px;
+	float: left;
+}
+
 #cssmenu {
   background: #000000;
   width: auto;
