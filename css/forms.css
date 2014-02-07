@@ -1,9 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*--------------------------------------------------------------
-1.0 - BASE SITE STYLES
---------------------------------------------------------------*/
+/* BASE SITE STYLES*/
 *,*:after,*:before {
   box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -27,18 +25,11 @@ a,a:visited {
   color:#fff
 }
 
-/*--------------------------------------------------------------
-2.0 - SEARCH FORM
---------------------------------------------------------------*/
+/*SEARCH FORM*/
 .searchform {
-  background:#fff;
-  background: #fff;
-  border: 1px solid #000;
-	left: 50%;
-  padding: 2px 5px;
+	left: 70%;
+  padding: 8px 5px;
   position: absolute;
-	margin: -22px 0 0 -170px;
-	top: 50%;
   width:339px;
   border-radius: 2px;
   -moz-border-radius: 2px;
