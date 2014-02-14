@@ -17,6 +17,7 @@
 
 .media-body {
 	overflow: hidden;
+	padding: 10px;
 }
 
 .media-stacked {
