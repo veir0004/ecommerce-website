@@ -29,8 +29,8 @@ a,a:visited {
 /*SEARCH FORM*/
 .searchform {
 	left: 65%;
-  padding: 60px 5px;
-  position: absolute;
+  padding: 1px 5px;
+  position:absolute;
   width:339px;
   border-radius: 2px;
   -moz-border-radius: 2px;
