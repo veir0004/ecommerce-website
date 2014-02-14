@@ -19,7 +19,7 @@
 	width:50%;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 35em) {
 	.unit-m-1-3 {
 		width: 33.3333%
 	}
