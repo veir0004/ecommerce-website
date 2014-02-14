@@ -9,6 +9,7 @@
 	<link href="../css/media-object.css" rel="stylesheet">
 	<link href="../css/list-group.css" rel="stylesheet">
 	<link href="../css/product-list.css" rel="stylesheet">
+	<link href="../css/grid.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,15 +18,24 @@
 		
 		<div class="media-img">
 			<div class="media-img-stacked">
-				<img class="img-flex"src="http://placehold.it/640x400" alt="placeholder">
+				<img class="img-flex"src="http://placehold.it/540x300" alt="placeholder">
 			</div>
-			<div class="media-body">
-				<h2>Product Name</h2>
-				<h4>MARC JACOBS FRAGRANCE DAISY</h4>
-				<p> $15.00</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="media-body">
+					 <p class="bucket-title"><a href="#"><strong> MARC JACOBS FRAGRANCE DAISY</strong></a></p>
+					<p> $15.00</p>
+					<p>Enter the world of Daisy: fresh and feminine, with a playful innocence.</p>
+					
+					<p>Quantity</p>
+						<select id="dropblock">
+							<option selected="selected">Select Option</option>
+							<option>Text 2</option>
+							<option>Text 3</option>
+							<option>Text 4</option>
+						</select>
+				
+				<a class="btn micro" href="#"> Add to Cart</a>
+				</div>
 			</div>
-		</div>
 		
 			<!--<p>Colour</p>
 			<select id="dropblock">
@@ -51,15 +61,7 @@
 			</ul>
 			-->
 			
-				<p>Quantity</p>
-			<select id="dropblock">
-				<option selected="selected">Select Option</option>
-				<option>Text 2</option>
-				<option>Text 3</option>
-				<option>Text 4</option>
-			</select>
 			
-			<a class="btn micro" href="#"> Add to Cart</a>
 	</div>
 </body>
 </html>
