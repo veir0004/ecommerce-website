@@ -43,11 +43,11 @@ display:block;
 	margin-right: 1rem;
 	text-align:center;
 	padding-top: 0.025rem;
-	-webkit-border-radius: 20%;
-	-moz-border-radius: 20%;
-	-ms-border-radius: 20%;
-	-o-border-radius: 20%;
-	border-radius: 20%;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
+	-ms-border-radius: 10%;
+	-o-border-radius: 10%;
+	border-radius: 10%;
 	
 	color:#FFF;
 	/*background-color: #222;*/
@@ -63,11 +63,11 @@ display:block;
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #9C9392;
-	-moz-box-shadow: inset 0px 0px 0px 3px #9C9392;
-	-ms-box-shadow: inset 0px 0px 0px 3px #9C9392;
-	-o-box-shadow: inset 0px 0px 0px 3px #9C9392;
-	box-shadow: inset 0px 0px 0px 3px #9C9392;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #FF917E;
+	-moz-box-shadow: inset 0px 0px 0px 3px #FF917E;
+	-ms-box-shadow: inset 0px 0px 0px 3px #FF917E;
+	-o-box-shadow: inset 0px 0px 0px 3px #FF917E;
+	box-shadow: inset 0px 0px 0px 3px #FF917E;
 	color: #fff;
 }
 
