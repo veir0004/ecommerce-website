@@ -6,7 +6,7 @@
   padding: 0; }
 
 html {
-  padding: 50px; 
+  padding: 5px; 
  }
 
 .display-block { display: block; 
@@ -49,10 +49,9 @@ html {
   
   /* large???????>>>>>>>>>>>>>>>>>>>>>>>>>>??????????????????>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
   .billboard {
-	border-bottom: 5px solid #000;
-	height: 25rem;
-	position: absolute;
-	margin-top: 4.5rem;
+	height: 5rem;
+	position:absolute;
+	margin-top: 1rem;
 }
 
 .media {
@@ -60,13 +59,13 @@ html {
 }
 
 .media-img {
-	float: left;
-	margin: 0 5px 0 0;
-	padding: 20px;
+	float:left;
+	margin: 0 2px 0 0;
+	padding: 5px;
 }
 
 .media-body {
 	overflow: hidden;
-	padding: 20px;
+	padding: 10px;
 }
 
