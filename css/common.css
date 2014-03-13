@@ -40,3 +40,7 @@ html {
 	display: block;
 	width: 100%;
 }
+
+.current {
+	color: #ff6474;
+}
