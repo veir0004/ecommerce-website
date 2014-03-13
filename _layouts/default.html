@@ -23,6 +23,7 @@
 	<link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
 </head>
 
+{{page.url}}
 			<a href="#"><img src="../images/logo.svg" alt="company name" class="logo"></a>
 			
 			<div id='shopmenu'>
@@ -39,12 +40,21 @@
 		
 		<div id='cssmenu'>
 		<ul>
-		   <li class='active'><a href='index.html'><span>Home</span></a></li>
+		   <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/"><span>Home</span></a></li>
 		   <li><a href='#'><span>Women</span></a></li>
 		   <li><a href='#'><span>Men</span></a></li>
 		   <li class='last'><a href='#'><span>Home Scents</span></a></li>
+		   <li class="list-group-item list-group-item-inline">
+          <a class="{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about.html/">About</a>
+        </li>
 		</ul>
 		</div>
+		
+{% if.page.showbanner %}	
+<div class="banner">
+	<h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 		
 		{{content}}
 		
