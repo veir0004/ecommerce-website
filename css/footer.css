@@ -33,6 +33,11 @@ overflow: hidden;
 display:block;
 }
 
+.social {
+	float:right;
+	
+}
+
 .social li a,
 .social li a:link,
 .social li a:visited{
@@ -69,14 +74,4 @@ display:block;
 	-o-box-shadow: inset 0px 0px 0px 3px #FF917E;
 	box-shadow: inset 0px 0px 0px 3px #FF917E;
 	color: #fff;
-}
-
-.list-group {
-	list-style-type:none;
-}
-
-.list-group-item-list-group-item-inline{
-	display:inline-block;
-	float:right;
-	margin-top: -2rem;
 }
