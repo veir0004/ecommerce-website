@@ -202,3 +202,18 @@ background: #000000 ;
   }
   
 }
+.current{
+	color: #FF6473
+}
+
+.banner{
+	background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 5em 1em 1em;
+	text-align: center;
+	
+}
+
+.banner h2{
+	color: #FF6473;
+}
