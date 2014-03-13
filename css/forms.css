@@ -1,31 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* BASE SITE STYLES*/
-*,*:after,*:before {
-  box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-}
-
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
-}
-.cf:after {
-    clear:both;
-}
-
-body {
-  color: #fff;
-  font-family: font-family: 'Roboto', sans-serif;
-}
-
-a,a:visited {
-  color:#fff
-}
-
 /*SEARCH FORM*/
 .searchform {
 	left: 65%;
@@ -88,29 +63,6 @@ a,a:visited {
 	}
 	
 	@media screen and (max-width: 768px) {
-		
-*,*:after,*:before {
-  box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-}
-
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
-}
-.cf:after {
-    clear:both;
-}
-
-body {
-  color: #fff;
-  font-family: font-family: 'Roboto', sans-serif;
-}
-a,a:visited {
-  color:#fff
-}
 		
 .searchform {
 	left: 1%;
