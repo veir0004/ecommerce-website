@@ -40,12 +40,12 @@
 		
 		<div id='cssmenu'>
 		<ul>
-		   <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/"><span>Home</span></a></li>
+		   <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/"><span>Home</span></a></li>
 		   <li><a href='#'><span>Women</span></a></li>
 		   <li><a href='#'><span>Men</span></a></li>
 		   <li class='last'><a href='#'><span>Home Scents</span></a></li>
 		   <li class="list-group-item list-group-item-inline">
-          <a class="{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about.html/">About</a>
+          <li class="{% if page.url == '/about/' %}active{% endif %}"><a href="{{site.baseurl}}/about/">About</a>
         </li>
 		</ul>
 		</div>
