@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Men's Perfume
+title: Men's Cologne
 ---
 
 <div id='cssmenusub'>
@@ -12,7 +12,7 @@ title: Men's Perfume
 
 <ul>
 	{% for fragrance in site.pages %}
-		{% if fragrance.category == 'mens-perfume' %}
+		{% if fragrance.category == 'mens-cologne' %}
 			<li>
 			<a href="{{site.baseurl}}{{fragrance.url}}">
 			<img src="{{site.baseurl}}/images/{{fragrance.image}}" alt="">
