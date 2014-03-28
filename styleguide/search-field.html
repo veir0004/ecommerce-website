@@ -8,10 +8,26 @@
 </head>
 
 <body>
-<form class="searchform cf">
+<!--<form class="searchform cf">
   <input type="text" placeholder="Search">
   <button type="submit">Search</button>
-</form>
+</form>-->
+
+<!--<form class="searchform cf">
+<form method="get"action="{{site.baseurl}}/search.html">
+<a href="{{site.baseurl}}/search.html"></a>
+  <input type="text" placeholder="Search">
+  <button type="submit">Search</button>
+</form>-->
+
+<!--<form method="get" action="{{site.baseurl}}/search/">
+</form>-->
+
+<form method="get" action="/search" id="search">
+  <input name="q" type="text" size="40" placeholder="Search..." />
+</form> 
+
+
  
 </body>
 </html>
