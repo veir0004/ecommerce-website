@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fragrances
 category: womens-perfume
 title: Chloe-Roses De Chloé
 image: placeholder.jpg
