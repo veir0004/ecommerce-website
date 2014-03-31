@@ -21,18 +21,19 @@
 	<link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/product.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
 </head>
 
 			<a href="#"><img src="{{site.baseurl}}/images/logo.svg" alt="company name" class="logo"></a>
 			
 			<div id='shopmenu'>
 				<ul>
-				<li ><a href='#'><span>My Cart</span></a></li>
+				<li ><a href='/cart'><span>My Cart</span></a></li>
 				</ul>
 			</div>
 			
-			<form class="searchform cf">
-			<form method="get" action="{{baseurl}}/search" id="search">
+	
+			<form class="searchform cf" method="get" action="{{baseurl}}/search" id="search">
 			  <input type="text" placeholder="Search">
 			  <button type="submit">Search</button>
 			</form>
@@ -41,7 +42,6 @@
 		<ul>
 		   <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/"><span>Home</span></a></li>
 		   <li class="{% if page.url == '/fragrance/' %}active{% endif %}"><a href="{{site.baseurl}}/fragrance/">Fragrance</a></li>
-		   <li class="{% if page.url == '/home-scents/' %}active{% endif %}"><a href="{{site.baseurl}}/home-scents/">Home Scents</a></li>
 		   <li class="list-group-item list-group-item-inline">
           <li class="{% if page.url == '/about/' %}active{% endif %}"><a href="{{site.baseurl}}/about/">About</a></li>
 		</ul>
