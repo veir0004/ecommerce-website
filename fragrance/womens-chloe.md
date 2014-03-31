@@ -1,15 +1,14 @@
 ---
-layout: fragrances
+layout: product
 category: womens-perfume
+type: woman
 title: Chloe-Roses De Chloé
-image: placeholder.jpg
+desc: "Enter the world of Daisy: fresh and feminine, with a playful innocence. The heart of Daisy is floral with vintage edge of violet. Sophisticated,with a touch of whimsy, violet captures the eclectic, timeless flavor of Marc Jacobs' groundbreaking feminine designs. Always elegant, always enchanting—but not too serious—Daisy is a sparkling floral bouquet, spirited and fresh, wrapped in comfort and warmth."
+price: "22.00"
+image: perfume-1.jpg 
 ---
 
-A fragrant **liquid** typically made from essential oils extracted from flowers and spices, used to impart a ***pleasant*** smell to one's body or clothes.
 
-#Roses De Chloé
-
-![]({{site.baseurl}}/images/placeholder.jpg)
 
 ### Popular Scents
 
