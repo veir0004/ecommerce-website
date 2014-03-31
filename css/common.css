@@ -44,3 +44,7 @@ html {
 .current {
 	color: #ff6474;
 }
+
+.checkout {
+	color: red;
+}
