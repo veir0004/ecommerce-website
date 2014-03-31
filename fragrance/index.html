@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fragrance Essentials
+title: Fragrance
 ---
 {% include sub-nav.html %}
 
@@ -11,6 +11,25 @@ title: Fragrance Essentials
 </div>
 </div>
 
+<ul>
+{% for fragrance in site.pages %}
+{%if fragrance.category =='fragrance' %}
+
+
+<li>
+	<a href="{{site.baseurl}}{{fragrance.url}}">
+	<img src="{{site.baseurl}}/images/{{fragrance.image}}" alt="" width="400">
+	{{fragrance.title}}
+	</a>
+</li>
+
+{% endif %}
+{% endfor %}
+</ul>
+
+
+
+
 <h2>Women's Perfume</h2>
 {% include promo-small.html %}
 {% include promo-small.html %}
@@ -19,4 +38,8 @@ title: Fragrance Essentials
 
 {% include promo-small.html %}
 {% include promo-small.html %}
+
+{{content}}
+
+
 
