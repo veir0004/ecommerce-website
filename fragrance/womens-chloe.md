@@ -9,10 +9,3 @@ image: perfume-1.jpg
 ---
 
 
-
-### Popular Scents
-
-- Poppy Flower By: Coach
-- Light Blue: Dolce & Gabbana
-- Guilty: Gucci
-
