@@ -3,8 +3,8 @@
 User testing was conducted by {Nichole Veiro} on {April 3rd} between the times of {10:00am} and {11:00pm} with the following participants:
 
 - {Quynh Nguyen}
-- {John Doe}
-- {Jordan Doe}
+- {Elzahra Elghirani}
+- {Iman Ghader}
 
 ## Tasks
 
@@ -22,21 +22,16 @@ User testing was conducted by {Nichole Veiro} on {April 3rd} between the times o
 - {She had no problem finding the product}
 
 
-### {John Doe}
+### {Elzahra Elghirani}
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {She nagivated from the home page to the product easily}
+- {She asked why the the image placeholders are so big, hard see my links/products}
 
-### {Jordan Doe}
+### {Iman Ghader}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {She started from the homepage and moved to fragrances}
+- {She clicked the secondary link menu showed then she clicked on womens perfume to browse.}
+- {She didn't ask any questions}
 
 ---
 
@@ -44,15 +39,15 @@ User testing was conducted by {Nichole Veiro} on {April 3rd} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {I Could pick a darker colour for my links instead of light gray}
+- {Fix links on live site, Search bar and Thank you page not linked properly}
+- {Better sized images}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {Quynh and Iman had no problems with the link colour but Elzahara did}
+
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {Participants had no issues with my site and completed all their tasks properly}
