@@ -141,6 +141,19 @@ a:active {
   border-bottom-color: #FF917E;
 }
 
+a:hover,
+a:active {
+	/* its's okay to remove focus rectangle for mouse states*/
+outline: none;
+}
+
+a:focus
+input:focus,
+button: focus {
+	/* The focus rectangle MUST ALWAYS BE visible for keyboard states */
+outline: 3px solid #FF857E;
+}
+
 blockquote {
 	color:#FF6473;
 }
