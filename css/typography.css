@@ -147,11 +147,15 @@ a:active {
 outline: none;
 }
 
-a:focus
+a:focus,
 input:focus,
-button: focus {
+button:focus {
 	/* The focus rectangle MUST ALWAYS BE visible for keyboard states */
-outline: 3px solid #FF857E;
+outline: 3px solid #9C9392;
+}
+
+.block-link {
+display: block;
 }
 
 blockquote {
