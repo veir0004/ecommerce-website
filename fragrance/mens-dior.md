@@ -1,21 +1,8 @@
 ---
-layout: default
+layout: product
 category: mens-cologne
-title: Dior-Dior Homme
+title: Dior Homme
+price: "86.00"
 image: placeholder.jpg
+desc: The new men's fragrance by Dior reinvents masculine luxury with classic yet clearly modern elegance. A unique powdery scent, built around masculine iris, with notes of lavender, amber, vetiver, and leather.
 ---
-
-A fragrant **liquid** typically made from essential oils extracted from flowers and spices, used to impart a ***pleasant*** smell to one's body or clothes.
- 
-#Dior-Dior Homme
-
-![]({{site.baseurl}}/images/placeholder.jpg)
-
-### Popular Scents
-
-- Poppy Flower By: Coach
-- Light Blue: Dolce & Gabbana
-- Guilty: Gucci
-
-
-

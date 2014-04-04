@@ -1,20 +1,11 @@
 ---
-layout: default
+layout: product
 category: mens-cologne
 title: Versace-Pour Homme
 image: placeholder.jpg
+price: "57.00"
+desc: The new fragrance for men, Versace Pour Homme, blends essential ingredients of Mediterranean origin to hit aromatic notes that match the man of today.
 ---
-
-A fragrant **liquid** typically made from essential oils extracted from flowers and spices, used to impart a ***pleasant*** smell to one's body or clothes.
- 
-#Versace-Pour Homme
-![]({{site.baseurl}}/images/placeholder.jpg)
-
-### Popular Scents
-
-- Poppy Flower By: Coach
-- Light Blue: Dolce & Gabbana
-- Guilty: Gucci
 
 
 

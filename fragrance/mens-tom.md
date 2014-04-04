@@ -1,20 +1,9 @@
 ---
-layout: default
+layout: product
 category: mens-cologne
 title: Tom Ford-Noir
 image: placeholder.jpg
+price: "79.00"
+desc: TOM FORD Noir Eau De Toilette presents a dynamic new expression of Noir as pure citrus oils and herbal notes come to the forefront, brightened and heightened in their impact. 
 ---
-
-A fragrant **liquid** typically made from essential oils extracted from flowers and spices, used to impart a ***pleasant*** smell to one's body or clothes.
- 
-#Tom Ford-Noir
-![]({{site.baseurl}}/images/placeholder.jpg)
-
-### Popular Scents
-
-- Poppy Flower By: Coach
-- Light Blue: Dolce & Gabbana
-- Guilty: Gucci
-
-
 

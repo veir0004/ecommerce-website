@@ -1,20 +1,12 @@
 ---
-layout: default
+layout: product
 category: mens-cologne
 title: Prada-Luna Rossa
+price: "46.00"
 image: placeholder.jpg
+desc: Prada Luna Rossa Extreme skillfully combines six distinctive ingredients to create a powerful and perfectly balanced ensemble, evoking team spirit and equilibrium, the key to the world of extreme sailing. Within the fragrance, a spicy freshness fuses with a dark, sensual amber heart to reveal a tenacious lavender signature. 
 ---
 
-A fragrant **liquid** typically made from essential oils extracted from flowers and spices, used to impart a ***pleasant*** smell to one's body or clothes.
- 
-#Prada-Luna Rossa
-![]({{site.baseurl}}/images/placeholder.jpg)
-
-### Popular Scents
-
-- Poppy Flower By: Coach
-- Light Blue: Dolce & Gabbana
-- Guilty: Gucci
 
 
 
