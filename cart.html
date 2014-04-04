@@ -2,7 +2,7 @@
 layout: default
 title: Cart
 ---
-
+<main role="main">
 <h1>Shopping Cart</h1>
 {% include product-list-item.html %}
 
@@ -17,5 +17,6 @@ title: Cart
 	<strong>Total:$60.00</strong>
 </div>
 
-<a class="btn micro" href="/thank-you"> Checkout</a>
+<a class="btn micro" href="/{{site.baseurl}}thank-you"> Checkout</a>
 
+</main>
