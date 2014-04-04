@@ -18,11 +18,9 @@ User testing was conducted by {Nichole Veiro} on {April 3rd} between the times o
 
 ### {Quynh Nguyen}
 
-- {She had no problem find}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {She performed the task properly}
+- {She had no problem finding the product}
+
 
 ### {John Doe}
 
