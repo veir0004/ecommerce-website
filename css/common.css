@@ -48,9 +48,8 @@ html {
 .checkout {
 	color: red;
 }
-<p>&nbsp;</p>
-<p>.subm</p>
 
-.subtotal {
+#subtotal {
 	padding: 30px;
+	clear:both;
 }
