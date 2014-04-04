@@ -23,9 +23,9 @@
 	<link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
 </head>
-
-			<a href="#"><img src="{{site.baseurl}}/images/logo.svg" alt="company name" class="logo"></a>
-			
+ 	
+		<header role="banner">
+			<a class="block-link" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/logo.svg" alt="company name" class="logo"></a>
 			<div id='shopmenu'>
 				<ul>
 				<li ><a href='/cart'><span>My Cart</span></a></li>
@@ -33,12 +33,12 @@
 			</div>
 			
 	
-			<form class="searchform cf" method="get" action="{{baseurl}}/search" id="search">
+			<form class="searchform cf" method="get" action="{{site.baseurl}}/search" id="search" role="search">
 			  <input type="text" placeholder="Search">
 			  <button type="submit">Search</button>
 			</form>
 		
-		<div id='cssmenu'>
+		<div id='cssmenu' role="nagivation">
 		<ul>
 		   <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/"><span>Home</span></a></li>
 		   <li class="{% if page.url == '/fragrance/' %}active{% endif %}"><a href="{{site.baseurl}}/fragrance/">Fragrance</a></li>
@@ -46,6 +46,8 @@
           <li class="{% if page.url == '/about/' %}active{% endif %}"><a href="{{site.baseurl}}/about/">About</a></li>
 		</ul>
 		</div>
+		
+		</header>
 		
 {% if.page.showbanner %}	
 <div class="banner">
@@ -60,7 +62,7 @@
 		
 
 			<ul class="social list-group">
-				<li class="list-group-item-list-group-item-inline">
+				<li class="list-group-item-list-group-item-inline" role="contentinfo">
 					<a class="ease-all" href="http://www.facebook.com">
 						<i class="fa fa-facebook"></i>
 						<span class="hide-text">Facebook</span>
