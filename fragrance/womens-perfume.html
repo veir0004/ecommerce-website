@@ -9,16 +9,18 @@ title: Women's Perfume
 		</ul>
 </div>
 
-<ul>
+<ul class="list-group">
 	{% for fragrance in site.pages %}
 		{% if fragrance.category == 'womens-perfume' %}
-			<li>
+			<li class="list-group-item">
 			<a href="{{site.baseurl}}{{fragrance.url}}">
 			<img src="{{site.baseurl}}/images/{{fragrance.image}}" alt="" width="400">
 			{{fragrance.title}}
+			</a>
 			</li>
 		{% endif %}
 	{% endfor %}
 </ul>
+
 
 
