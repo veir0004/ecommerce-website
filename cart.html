@@ -5,19 +5,35 @@ title: Cart
 <main role="main">
 <h1>Shopping Cart</h1>
 {% include product-list-item.html %}
-
-
-
-
-<div id='subtotal'>
-	<h4>Subtotal:</h4> 
-	<p>$30.00</p>
-	<p><strong>Taxes:$10.00</strong></p>
-	<p><strong>Shipping:$20.00</strong></p>
-	<strong>Total:$60.00</strong>
-	<a class="btn micro" href="{{site.baseurl}}/thank-you/"> Checkout</a>
-</div>
-
-
+	
+	    <table class="hours-table">
+        <thead>
+        <tr>
+            <th></th>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img src="{{site.baseurl}}/images/perfume-1.jpg" alt="" width="100"></td>
+            <td>Marc Jacobs Honey</td>
+            <td>$60.00</td>
+            <td>2</td>
+            <td>$120.00</td>
+        </tr>
+        <tr>
+            <td><img src="{{site.baseurl}}/images/perfume-3.jpg" alt="" width="100"></td>
+            <td>Blue Igloo</td>
+            <td>$15.50</td>
+            <td>1</td>
+            <td>$15.50</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2>Cart Totals: $135.00</h2>
+    <a class="btn micro" href="{{site.baseurl}}/thank-you/"> Checkout</a></main>
 
 </main>
