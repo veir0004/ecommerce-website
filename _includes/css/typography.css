@@ -3,7 +3,7 @@
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
   pink FF6473  light FF857E
-  grey 9C9392
+  grey 9C9392 Dark 545151
   blue 4BBFBF
   beige FFB37C
   *highlight colour FF917E;
@@ -125,12 +125,12 @@ a,
 a:link{
   color: #000;
   text-decoration:none;
-  border-bottom: 0.1em solid #9C9392;
+  border-bottom: 0.1em solid #545151;
   transition: all 250 linear;
 }
 
 a:visited {
-  color: #9C9392;
+  color: #545151;
   border-bottom-color: #FFB37C;
 }
 
@@ -151,7 +151,7 @@ a:focus,
 input:focus,
 button:focus {
 	/* The focus rectangle MUST ALWAYS BE visible for keyboard states */
-outline: 3px solid #9C9392;
+outline: 3px solid #545151;
 }
 
 .block-link {
