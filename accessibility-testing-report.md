@@ -1,8 +1,3 @@
----
-layout: default
-title: accessibility-testing-report
-___
-
 
 # Accessibility Testing Report
 

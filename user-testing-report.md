@@ -1,7 +1,3 @@
----
-layout: default
-title: user-testing-report
-___
 
 # User Testing Report
 
