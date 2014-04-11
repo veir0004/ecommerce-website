@@ -149,7 +149,8 @@ outline: none;
 
 a:focus,
 input:focus,
-button:focus {
+button:focus,
+select:focus {
 	/* The focus rectangle MUST ALWAYS BE visible for keyboard states */
 outline: 3px solid #545151;
 }
