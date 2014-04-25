@@ -1,0 +1,9 @@
+
+
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: http://veir0004.github.io/ecommerce-website/sitemap.gz
+
+# All images used are from Creative Commons
