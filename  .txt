@@ -1,0 +1,16 @@
+/*team*/
+
+Designer & developer: Nichole Veiro
+Location: Ottawa, Canada
+
+
+/*thanks*/
+
+thanks to Thomas J Bradley.
+
+/*site*/
+
+Last update 2014/04/25
+Standards: HTML5, CSS3
+Components: Modernizr, Jquery, etc...
+Software: Adobe, Livereload.
